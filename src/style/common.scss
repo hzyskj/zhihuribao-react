@@ -1,0 +1,129 @@
+
+.text-plus {
+  font-size: 16px;
+}
+.text-regular {
+  font-size: 14px;
+}
+.text-small {
+  font-size: 13px;
+}
+.text-smaller {
+  font-size: 12px;
+}
+.over-y-auto {
+  overflow-y: auto;
+}
+.over-x-auto {
+  overflow-x: auto;
+}
+.flex {
+  display: flex;
+}
+
+.flex-right {
+  flex-direction: row-reverse;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex-1_5 {
+  flex: 1.5;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-cloumn {
+  flex-direction: column;
+}
+.flex-warp {
+  flex-wrap: wrap;
+}
+.flex-x-center {
+  justify-content: center;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.just-center {
+  justify-content: space-between;
+}
+
+.flex-y-end {
+  align-items: flex-end;
+}
+.block-center {
+  margin: 0 auto;
+}
+
+.shoushi {
+  cursor: pointer;
+}
+
+// .hover-color:hover {
+//   color: $color-main;
+// }
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-over {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.app-card-box {
+  background: #fff;
+  box-shadow: 1px #d6d6d6;
+  // padding: 10px;
+}
